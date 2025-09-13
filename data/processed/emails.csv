@@ -1,0 +1,16 @@
+text,label
+"Subject: verify your account now
+
+Dear user, please verify your account at __URL__ to avoid suspension.","phish"
+"Subject: meeting rescheduled
+
+Let’s move our standup to 10am tomorrow.","ham"
+"Subject: urgent: update payment info
+
+Your payment failed. Update details at __URL__","phish"
+"Subject: lunch plans
+
+Are you free for lunch at 12:30?","ham"
+"Subject: password expiration notice
+
+Your password expires soon. Click __URL__ to reset.","phish"

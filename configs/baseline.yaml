@@ -1,0 +1,23 @@
+# configs/baseline.yaml
+# Includes all information about the model used, the vectorizer used, etc. 
+seed: 42
+
+vectorizer:
+  ngram_range: [1, 2]
+  min_df: 1
+  max_df: 1.0
+  sublinear_tf: true
+
+model:
+  type: LinearSVC
+  C: 1.0
+
+calibration:
+  enabled: false
+  method: sigmoid  # 'isotonic' or 'sigmoid'
+  cv: 2
+
+thresholding:
+  # Operating point for classification from probability
+  # Final label = (prob_phish >= threshold)
+  threshold: 0.5
