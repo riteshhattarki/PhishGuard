@@ -1,5 +1,4 @@
 # configs/baseline.yaml
-# Includes all information about the model used, the vectorizer used, etc. 
 seed: 42
 
 vectorizer:
@@ -13,11 +12,10 @@ model:
   C: 1.0
 
 calibration:
-  enabled: false
-  method: sigmoid  # 'isotonic' or 'sigmoid'
-  cv: 2
+  enabled: false         # keep false until you have more data
+  method: "sigmoid"      # "sigmoid" or "isotonic"
+  cv: 3
 
 thresholding:
-  # Operating point for classification from probability
-  # Final label = (prob_phish >= threshold)
-  threshold: 0.5
+  threshold: 0.5         # used later when we have probabilities
+  margin_threshold: 0.20  # used now as fallback for SVM decision_function

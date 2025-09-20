@@ -1,0 +1,9 @@
+text,label
+a reminder that timesheets are due by monday at __NUM__ pm. thank you!,ham
+let us meet tomorrow at __NUM__ in the conference room.,ham
+your payment failed. update details now at __URL__,phish
+my office hours on friday will be moved to __NUM__ – __NUM__ pm instead of the usual time.,ham
+your package cannot be delivered. verify address at __URL__,phish
+your account will be suspended unless you login at __URL__,phish
+timesheets are due monday morning. thank you!,ham
+we detected unusual activity. confirm at __URL__ immediately.,phish

@@ -1,16 +1,13 @@
 text,label
-"Subject: verify your account now
-
-Dear user, please verify your account at __URL__ to avoid suspension.","phish"
-"Subject: meeting rescheduled
-
-Let’s move our standup to 10am tomorrow.","ham"
-"Subject: urgent: update payment info
-
-Your payment failed. Update details at __URL__","phish"
-"Subject: lunch plans
-
-Are you free for lunch at 12:30?","ham"
-"Subject: password expiration notice
-
-Your password expires soon. Click __URL__ to reset.","phish"
+your payment failed. update details now at __URL__,phish
+we detected unusual activity. confirm at __URL__ immediately.,phish
+a reminder that timesheets are due by monday at __NUM__ pm. thank you!,ham
+your account will be suspended unless you login at __URL__,phish
+let us meet tomorrow at __NUM__ in the conference room.,ham
+my office hours on friday will be moved to __NUM__ – __NUM__ pm instead of the usual time.,ham
+i will be out next friday. please approve when you have a moment.,ham
+your package cannot be delivered. verify address at __URL__,phish
+are you free for lunch on thursday? no rush.,ham
+you are eligible for a refund. claim at __URL__ within __NUM__ hours.,phish
+timesheets are due monday morning. thank you!,ham
+open the attachment and pay immediately to avoid late fees.,phish
